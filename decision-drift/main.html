@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" href="assets/icons/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Decision Drift </title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Decision Drift</h1>
+      <p class="tagline">For when your brain says "idk"</p>
+    </header>
+    
+    <div class="category-selector" id="categorySelector">
+    </div>
+    
+    <div class="input-group">
+      <input type="text" id="optionInput" placeholder="Add an option...">
+      <button class="add-btn" id="addBtn">Add</button>
+    </div>
+    
+    <div class="options-list" id="optionsList">
+    </div>
+    
+    <div class="action-buttons">
+      <button class="decide-btn" id="decideBtn">Decide for me!</button>
+      <button class="reset-btn" id="resetBtn">Clear All</button>
+    </div>
+    
+    <div class="result-container" id="resultContainer">
+      <p class="result-label" id="resultLabel"></p>
+      <div class="result" id="result"></div>
+    </div>
+    
+    <div class="history-container">
+      <h3 class="history-title">Previous Decisions</h3>
+      <div class="history-list" id="historyList">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Decision Drift</div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/charlesandrew.cabral" class="footer-link">
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://www.linkedin.com/in/charles-andrew-cabral-564282280/" class="footer-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Tsarles" class="footer-link">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <div class="copyright">©Tsarl's 2025. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
